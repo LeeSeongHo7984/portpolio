@@ -83,6 +83,7 @@ div {
 .navbar-brand {
   margin: 0 5% 0 0;
   font-weight: bold;
+  margin-left: 50px;
 }
 
 .navbar-light {
