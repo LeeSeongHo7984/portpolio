@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -292,12 +291,13 @@ input[type='text'], input[type='password'], input[type='tel'], input[type='email
 
 .btn_txt {
   display: block;
-  width: 100%;
+  width: 15%;
   height: 50px;
   line-height: 46px;
   border: 2px solid #333;
   font-size: 13px;
   text-align: center;
+  margin-left: 510px;
 }
 
 .form_area>ul>li.tel .form_box .ip_box button, .form_area>ul>li.addr .form_box .ip_box button {
@@ -491,5 +491,5 @@ table.tbl_list td {
 .form-inline {
   text-align: center;
   justify-content: center;
-  margin-left: 150px;
+  margin-left: 120px;
 }
