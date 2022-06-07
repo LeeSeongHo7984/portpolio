@@ -100,10 +100,10 @@
   <div class="content cs news_lists_page">
     <div class="srch_prd_top">
       <div class="prd_srch_area">
-        <div class="srch_box">
-          <input type="text" name="sh_keyword" id="sh_keyword" placeholder="검색어를 입력하세요.">
-          <button type="button" onclick="SearchHandler()">Search</button>
-        </div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="검색어를 입력해주세요" aria-label="Search" style="padding: 0 100px;">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">검색</button>
+        </form>
       </div>
     </div>
 
@@ -117,7 +117,7 @@
       <thead>
         <tr>
           <th>번호</th>
-          <th>제목</th>
+          <th style="text-align: center;padding-left: 110px;">제목</th>
           <th>작성일</th>
         </tr>
       </thead>

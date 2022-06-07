@@ -37,6 +37,47 @@ div {
   display: block;
 }
 
+table {
+  width: 100%;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+caption {
+  visibility: hidden;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+colgroup {
+  display: table-column-group;
+}
+
+col {
+  display: table-column;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
 /* 상단 시작 */
 
 #header {
@@ -378,5 +419,77 @@ footer .wrap .bottom {
 }
 
 .row .col-6 ul.list-unstyled li a {
-    color: #6c757d!important;
+  color: #6c757d!important;
+}
+
+.news_lists_page.content {
+  padding-top: 60px;
+}
+
+.srch_prd_top {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.srch_prd_top .prd_srch_area {
+  margin: 0 20px;
+  padding: 40px 20px;
+  background: #F4F4F4;
+}
+
+.srch_prd_top .prd_srch_area .srch_box {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.srch_box {
+  border: 1px solid #999;
+  overflow: hidden;
+}
+
+.srch_box input {
+  float: left;
+  width: calc( 100% - 54px );
+  height: 48px;
+  line-height: 48px;
+  border: 0;
+}
+
+.srch_box button {
+  float: left;
+  width: 62px;
+  background: #fff url("..img/pc_ico_srch.png") no-repeat 50%;
+  background-size: 22px;
+}
+
+table.tbl_list {
+  border-top: 2px solid #333;
+}
+
+table.tbl_list col.num {
+  width: 100px;
+}
+
+table.tbl_list col.date {
+  width: 210px;
+}
+
+table.tbl_list th {
+  padding: 27px 5px;
+}
+
+table.tbl_list td {
+  padding: 20px 5px;
+  color: #999;
+  text-align: center;
+}
+
+.nodata {
+  padding: 120px 0 !important;
+}
+
+.form-inline {
+  text-align: center;
+  justify-content: center;
+  margin-left: 150px;
 }
